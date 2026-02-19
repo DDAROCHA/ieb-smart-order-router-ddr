@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    /* Environment Settings */
+    "target": "ES2020",
+    "module": "CommonJS",
+
+    /* Project Structure */
+    "rootDir": ".",
+    "outDir": "./dist",
+
+    /* Interoperability */
+    "esModuleInterop": true,
+
+    /* Type Checking */
+    "strict": true,
+
+    /* Performance and Compatibility */
+    "skipLibCheck": true,
+
+    /* Debugging */
+    "sourceMap": true
+  },
+
+  "include": ["src", "tests"]
+}

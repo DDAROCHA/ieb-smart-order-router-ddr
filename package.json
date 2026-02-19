@@ -1,0 +1,28 @@
+{
+  "name": "ieb-smart-order-router-ddr",
+  "version": "1.0.0",
+  "description": "IEB Challenge by Diego Da Rocha",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && node dist/tests/route.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DDAROCHA/ieb-smart-order-router-ddr.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/DDAROCHA/ieb-smart-order-router-ddr/issues"
+  },
+  "homepage": "https://github.com/DDAROCHA/ieb-smart-order-router-ddr#readme",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
